@@ -13,7 +13,7 @@ import {
 <template>
   <Header />
   <div class="fixed">
-    <l-map :zoom="zoom" :center="center" style="height: 100vh; width: 100vw">
+    <l-map :zoom="zoom" :center="center" style="height: 50vh; width: 50vw">
       <l-control-layers position="topright"></l-control-layers>
       <l-tile-layer
         v-for="tileProvider in tileProviders"
