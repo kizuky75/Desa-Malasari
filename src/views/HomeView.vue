@@ -34,7 +34,6 @@ import Sidebar from "../components/Sidebar.vue";
         <li>
           5. Meningkatkan pelayanan masyarakat dengan maksimal.
         </li>
-        <li>
       </ul>
     </div>
   </main>
