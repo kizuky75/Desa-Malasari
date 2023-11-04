@@ -23,7 +23,7 @@
       </a>
 
       <a class="text-lg text-white mx-4 cursor-pointer">
-        <router-link to="/about">Tentang Desa</router-link>
+        <router-link to="/about">Struktur Desa</router-link>
       </a>
 
       <!-- <div
