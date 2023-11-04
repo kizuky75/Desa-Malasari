@@ -13,7 +13,7 @@ import {
 <template>
   <Header />
   <div class="fixed">
-    <l-map :zoom="zoom" :center="center" style="height: 50vh; width: 50vw">
+    <l-map :zoom="zoom" :center="center" style="height: 100vh; width: 100vw">
       <l-control-layers position="topright"></l-control-layers>
       <l-tile-layer
         v-for="tileProvider in tileProviders"
@@ -78,7 +78,7 @@ export default {
       loading: false,
       show: true,
       enableTooltip: true,
-      zoom: 15,
+      zoom: 10,
       center: [-6.715617,106.5160571],
       layerData: [],
       geojson: null,
