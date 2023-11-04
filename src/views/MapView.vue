@@ -78,7 +78,7 @@ export default {
       loading: false,
       show: true,
       enableTooltip: true,
-      zoom: 10,
+      zoom: 13,
       center: [-6.715617,106.5160571],
       layerData: [],
       geojson: null,
